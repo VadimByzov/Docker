@@ -1,0 +1,11 @@
+services:
+  dotnet_webapi:
+    build: SimpleAPI
+    ports:
+    - 80:80
+  sqlite:
+    image: nouchka/sqlite3:latest
+    stdin_open: true
+    tty: true
+    # volumes:
+    #   - C:\\Databases\\app.db
