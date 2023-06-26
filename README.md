@@ -2,7 +2,9 @@
 Tutorial for dotnet in docker
 
 docker compose up -d
+
 docker compose stop
+
 docker compose down
 
 # Todo
